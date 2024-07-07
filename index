@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Floating Audio Player</title>
+  <style>
+    .floating-audio {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      z-index: 1000;
+      background-color: white;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="floating-audio">
+    <audio controls>
+      <source src="YOUR_AUDIO_FILE_URL" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </div>
+</body>
+</html>
